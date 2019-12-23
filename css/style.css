@@ -1,0 +1,132 @@
+body {
+	background: #f7f7f7;
+	font-family: "lato", sans-serif;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	
+	background: #444445;
+}
+aside {
+	height: 100%;
+	width: 10%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #cc0000;
+	overflow-x: hidden;
+}
+aside div {
+	height: 110px;
+	width: 100%;
+	line-height: 110px;
+	text-align: center;
+	border-bottom: solid 1px #cdcdcd;
+}
+aside div a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	display: block;
+}
+aside div {
+	background: red;
+	color: #f1f1f1;
+}
+.wrapper {
+	margin-left: 120px;
+}
+.page-header {
+	padding: 10px;
+	padding-bottom: 20px;
+	background: #3d3d3d;
+	overflow-y: hidden !important;
+}
+.header-info {
+	color: #fff;
+	font-size: 15px;
+	margin-right: 25px;
+	background: #;
+	margin: 0;
+}
+.home-content {
+	width: 25%;
+	height: 100%;
+	margin: 0 0 0 115px;
+	float: left;
+	background-color: yellow;
+	display: inline-block;
+}
+.home-logo {
+width: 100%;
+height: 100%;
+margin: 0;
+padding-bottom: 90px;
+padding:20px 40px;
+background: #333;
+}
+.logo {
+margin:  40px 20px 20px 40px;
+}
+.home-trending {
+	width: 100%;
+	height: 100%;
+	background: #285888;
+	padding: 20px 40px;
+	color: #fff;
+	display: inline-block;
+	
+}
+.custom-counter {
+	margin: 0;
+	padding: 0;
+	line-height: 33px; 
+ list-style: decimal;
+ text-align: center;
+ display: inline-block;
+}
+.home-article {
+	/* background-image: url('/league.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;  */
+	width: 65%;
+	background-color:#254; 
+	float: right;
+	position: relative;
+	display: inline-block;
+	padding:0;
+	margin: 0;
+	
+}
+.article-image {
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	
+}
+.talent {
+	font-size: 3em;
+	color: #fff;
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+    background: rgba(14, 14, 17, 0.205);
+}
+
+
+.readme {
+	background: yellow;
+	position: absolute;
+	bottom: 30px;
+	right: 80px;
+	padding:10px;
+	font-size: 15px;
+	
+}
+.stable {
+	display: inline-block;
+	width: 100%;
+}
+
